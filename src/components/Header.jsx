@@ -24,6 +24,7 @@ const Header = () => {
                 <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
                     <Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>홈</Link>
                     <Link to="/menu" className="nav-link" onClick={() => setIsMenuOpen(false)}>메뉴</Link>
+                    <Link to="/portfolio" className="nav-link" onClick={() => setIsMenuOpen(false)}>포트폴리오</Link>
                     <Link to="/contact" className="nav-link" onClick={() => setIsMenuOpen(false)}>문의하기</Link>
                     <Link to="/contact" className="btn btn-primary btn-sm" onClick={() => setIsMenuOpen(false)}>주문하기</Link>
                 </nav>
